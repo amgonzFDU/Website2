@@ -1,0 +1,139 @@
+<html>
+
+
+<body background = "Blue.jpg">
+<center>
+
+
+<title>Server v. 0.0.1</title>
+<h1>Chon's Events</h1>
+</center>
+
+<center>
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=850 height=43 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s1087" style='padding:2.88pt 2.88pt 2.88pt 2.88pt'
+  class=shape> <p class=MsoNormal>   
+
+
+  <a href="Main.html"> 
+  	<span lang=en-US style='font-size:16.0pt;
+  color:white;text-decoration:underline;language:en-US'>Home</span></a><span
+  lang=en-US style='font-size:16.0pt;language:en-US'> </span><span lang=en-US
+  style='font-size:16.0pt;language:en-US'>&#9679;</span><span lang=en-US
+  style='font-size:16.0pt;language:en-US'> </span>
+
+  <a href="Wedding.php">
+  <span lang=en-US style='font-size:16.0pt;
+  color:white;text-decoration:underline;language:en-US'>Weddings</span></a><span
+  lang=en-US style='font-size:16.0pt;language:en-US'> </span><span lang=en-US
+  style='font-size:16.0pt;language:en-US'>&#9679;</span><span lang=en-US
+  style='font-size:16.0pt;language:en-US'> </span>
+
+  <a href="Events.php">
+  <span lang=en-US style='font-size:16.0pt;
+  color:white;text-decoration:underline;language:en-US'>Other Events</span></a><span
+  lang=en-US style='font-size:16.0pt;language:en-US'> </span><span lang=en-US
+  style='font-size:16.0pt;language:en-US'>&#9679;</span><span lang=en-US
+  style='font-size:16.0pt;language:en-US'> </span> 
+
+  <a href="Contact.html">
+  <span lang=en-US style='font-size:16.0pt;
+  color:white;text-decoration:underline;language:en-US'>Contact Us</span></a><span
+  lang=en-US style='font-size:16.0pt;language:en-US'> </span><span lang=en-US
+  style='font-size:16.0pt;language:en-US'>&#9679;</span><span lang=en-US
+  style='font-size:16.0pt;language:en-US'> </span> 
+
+  <a href="Survay.html">
+  <span lang=en-US style='font-size:16.0pt;
+  color:white;text-decoration:underline;language:en-US'>Request a Consultation</span></a><span lang=en-US style='font-size:16.0pt;language:en-US'> </span><span lang=en-US
+  style='font-size:16.0pt;language:en-US'>&#9679;</span><span lang=en-US
+  style='font-size:16.0pt;language:en-US'> </span>
+
+
+  <a href="Review.html">
+  <span lang=en-US style='font-size:16.0pt;
+  color:white;text-decoration:underline;language:en-US'>Leave a Review</span></a><span
+  lang=en-US style='font-size:16.0pt;language:en-US'> </span><span lang=en-US
+  style='font-size:16.0pt;language:en-US'>&#9679;</span><span lang=en-US
+  style='font-size:16.0pt;language:en-US'> </span>
+ 
+
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+<body>
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=600 height=35 valign=bottom style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s1079" style='padding:2.85pt 2.85pt 2.85pt 2.85pt'
+  class=shape>
+  <p class=MsoTitle3><span lang=en-US style='font-size:30.0pt;font-family:"Courier New";
+  color:white;text-decoration:underline;language:en-US'>Request a Consultation</span></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+    <h3>Enter your information and click Submit</h3>
+<form id=subForm action="Survay.php" method="GET">
+       <p>
+        <label for=email class=label>Email:</label>
+        <input class="textinput" id="Email" type="text" name="Email" value="" >
+      </p>
+
+      <p>
+        <label for=firstname class=label>First Name:</label>
+        <input class="textinput" id="firstname" type="text" name="firstname" value="" >
+      </p>
+      <p>
+        <label for=lastname class=label>Last Name:</label>
+        <input id="lastName" type="text" name="lastname" value="">
+      </p>      
+
+      <p>
+        <label for=Phone class=label>Phone number:</label>
+        <input id="Phone" type="int" name="Phone" value="">
+      </p>      
+        <p>
+        <label for=Event class=label>Event:</label>
+        <select id="Event" name="Event">
+          <option value="" selected="selected">Select Event:</option>
+          <option value="Wedding">Wedding</option>
+          <option value="Graduation">Graduation</option>
+          <option value="Brithday">Brithday</option>
+          <option value="Retirement">Retirement</option>
+          <option value="other">Other</option>
+          </select>
+        </p>
+
+  <p>
+
+       <p>
+        <label for=Budget class=label>Budget:</label>
+        <input id="Budget" type="REAL" name="Budget" value="">
+      </p>      
+
+
+       <p>
+        <label for=Event_date class=label>Event Date:</label>
+        <input id="Event_date" type="text" name="Event_Date" value="">
+      </p>      
+
+      <p>
+        <label for=Size class=label>Size:</label>
+        <input id="Size" type="int" name="Size" value="">
+      </p>    
+     
+     <p>
+      <label for=Comments class=label>Requests & Comments:</label>
+      <TEXTAREA NAME="Comments" ROWS=10 COLS=50>
+        </TEXTAREA>
+
+    </p>
+
+
+<input type="submit" value="submit" id=button>
+
+
